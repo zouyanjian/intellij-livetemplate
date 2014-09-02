@@ -105,7 +105,7 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
-  <template name="verif" value="org.mockito.Mockito.verify($MOCK$).$CALL$" description="Inserts a verify(…) statement" toReformat="false" toShortenFQNames="true">
+  <template name="verify" value="org.mockito.Mockito.verify($MOCK$).$CALL$" description="Inserts a verify(…) statement" toReformat="false" toShortenFQNames="true">
     <variable name="MOCK" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="CALL" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
